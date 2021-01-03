@@ -10,7 +10,8 @@ venom
 
 async function start(client) {
 	await client
-		.sendText('5511982650676@c.us', `👋 The Support System it's online now`)
+	//Notify Admin About Start System
+		.sendText('0000000000000@c.us', `👋 The Support System it's online now`)
 
 	client.onMessage((message) => {
 		keywords.welcome.forEach(
